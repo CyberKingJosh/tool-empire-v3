@@ -1,0 +1,23 @@
+# SEO PLAN: KG to STONES Converter
+
+## Target Keyword
+Primary: kg to stones converter
+H1: KG to STONES Converter
+Title Tag: KG to STONES Converter — Free Online Tool | ToolEmpire
+Meta Description: Free kg to stones converter. Get instant results with no signup required. Mobile-friendly, fast, and accurate.
+
+## Schema Markup
+Type: SoftwareApplication + HowTo
+Application Category: UtilityApplication
+Offers: Free
+
+## Internal Links
+- 4 related tools in footer grid
+- Category page link
+- Homepage breadcrumb
+
+## Content Strategy
+- Calculator/tool above the fold
+- How-to section below results
+- FAQ section with 3-5 questions
+- Last updated date for freshness

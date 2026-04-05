@@ -1,0 +1,23 @@
+# SEO PLAN: Resistor Color Code Calc
+
+## Target Keyword
+Primary: resistor color code calculator
+H1: Resistor Color Code Calc
+Title Tag: Resistor Color Code Calc — Free Online Tool | ToolEmpire
+Meta Description: Free resistor color code calc. Get instant results with no signup required. Mobile-friendly, fast, and accurate.
+
+## Schema Markup
+Type: SoftwareApplication + HowTo
+Application Category: UtilityApplication
+Offers: Free
+
+## Internal Links
+- 4 related tools in footer grid
+- Category page link
+- Homepage breadcrumb
+
+## Content Strategy
+- Calculator/tool above the fold
+- How-to section below results
+- FAQ section with 3-5 questions
+- Last updated date for freshness

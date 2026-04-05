@@ -1,0 +1,13 @@
+# DESIGN BRIEF: Sample Size Calculator
+
+Category: education
+Palette: Deep Blue
+Primary Background: #0A1628
+Accent Color: #4A9DFF
+Card Background: #1A2A3E
+
+Font Pairing: DM Sans (headings) + DM Sans (body)
+Tone: Professional, instant, trustworthy
+Mobile-First: Yes — 16px minimum input font, 48px minimum touch targets
+
+Unforgettable Detail: [Agent decides during build]

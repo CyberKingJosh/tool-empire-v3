@@ -1,0 +1,23 @@
+# SEO PLAN: CUPS to GRAMS Converter
+
+## Target Keyword
+Primary: cups to grams converter
+H1: CUPS to GRAMS Converter
+Title Tag: CUPS to GRAMS Converter — Free Online Tool | ToolEmpire
+Meta Description: Free cups to grams converter. Get instant results with no signup required. Mobile-friendly, fast, and accurate.
+
+## Schema Markup
+Type: SoftwareApplication + HowTo
+Application Category: UtilityApplication
+Offers: Free
+
+## Internal Links
+- 4 related tools in footer grid
+- Category page link
+- Homepage breadcrumb
+
+## Content Strategy
+- Calculator/tool above the fold
+- How-to section below results
+- FAQ section with 3-5 questions
+- Last updated date for freshness

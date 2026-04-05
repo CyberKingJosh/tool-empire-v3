@@ -1,0 +1,1 @@
+Each tool agent creates its own subfolder here named [slug]/page.tsx when it builds.

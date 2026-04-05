@@ -1,0 +1,1 @@
+Each tool agent creates its own file here named [slug].ts containing pure calculation logic.
