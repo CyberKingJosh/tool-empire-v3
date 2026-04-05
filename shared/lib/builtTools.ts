@@ -25,7 +25,7 @@ export const BUILT_TOOLS: BuiltTool[] = [
   },
   {
     name: "Current Time In London",
-    slug: "current-time-in-london",
+    slug: "time-in-london",
     description: "See the exact current time in London with automatic GMT/BST handling.",
     category: "time"
   }

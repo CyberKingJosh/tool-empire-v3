@@ -1,0 +1,70 @@
+{
+  "mode": "reform",
+  "existing_stack": "Next.js 14.2.x, TypeScript, Tailwind CSS 3.4.x, App Router",
+  "existing_repo_path": "/Users/blessingogugua/Desktop/everything/tool-empire-v3/tool-empire-v3",
+  "business_description": "Tool Empire — 1,000+ free online tools on toolsempire.online. This specific tool: AI Token Counter — counts tokens for all major LLM models (Claude, GPT, Gemini, Llama) with cost calculation.",
+  "target_customer": "Developers, AI engineers, and power users who need to estimate token usage and costs across multiple LLM providers. Ages 20-45, technical, cost-conscious.",
+  "desired_feeling": "dark technical — credible, precise, like a real API dashboard",
+  "industry": "ai",
+  "existing_assets": {
+    "design_system": "DESIGN_SYSTEM.md",
+    "frontend_rules": "FRONTEND_RULES.md",
+    "shared_components": ["ToolLayout", "ToolInput", "ResultDisplay", "RelatedTools", "AdSenseSlot"],
+    "palette": {
+      "primary": "#0D1117",
+      "accent": "#58A6FF",
+      "surface": "#161B22",
+      "text": "#C9D1D9",
+      "result": "#3FB950"
+    },
+    "fonts": "Space Grotesk 600-700 + JetBrains Mono (Pairing 2: Technical Precision)"
+  },
+  "inspiration_urls": [
+    "platform.openai.com/tokenizer",
+    "tokencounter.org",
+    "artificialanalysis.ai"
+  ],
+  "required_pages": ["tools/ai-token-counter"],
+  "primary_cta": "Count Tokens (Type A — tool action button)",
+  "hard_constraints": [
+    "Exact palette: #0D1117 / #58A6FF / #161B22 / #C9D1D9 / #3FB950",
+    "Font: Space Grotesk + JetBrains Mono only",
+    "Above fold on 375px mobile",
+    "48px min input height",
+    "16px min font size",
+    "Use shared components",
+    "AUD currency",
+    "2 AdSense slots (Type A)",
+    "Terminal cursor blink unforgettable detail"
+  ],
+  "content_needs_cms": false,
+  "cms_editor_type": null,
+  "scroll_animation_applicable": false,
+  "motion_level": "low",
+  "stack": "Next.js 14.2.x (App Router) + Tailwind CSS 3.4.x + TypeScript",
+  "monetisation_type": "A",
+  "tier": "Track A",
+  "tool_slug": "ai-token-counter",
+  "tool_name": "AI Token Counter",
+  "target_keyword": "token counter ai chatgpt claude",
+  "monthly_volume": 800000,
+  "competitors": [
+    { "name": "OpenAI Tokenizer", "url": "platform.openai.com/tokenizer", "weakness": "Only GPT models, no Claude/Gemini" },
+    { "name": "TokenCounter.org", "url": "tokencounter.org", "weakness": "Basic, no cost calculation" },
+    { "name": "Artificial Analysis", "url": "artificialanalysis.ai", "weakness": "Data-focused, not interactive calculator" }
+  ],
+  "related_tools": [
+    { "name": "ChatGPT Cost Calculator", "slug": "chatgpt-cost-calculator" },
+    { "name": "LLM Model Price Comparison", "slug": "llm-model-price-comparison" },
+    { "name": "AI vs Freelancer Cost", "slug": "ai-vs-freelancer-cost" },
+    { "name": "AI Agent Productivity Gain", "slug": "ai-agent-productivity-gain" }
+  ],
+  "affiliate": {
+    "name": "Claude Pro",
+    "description": "Advanced AI assistant for professionals",
+    "url": "claude.ai/pro",
+    "logo_domain": "claude.ai"
+  },
+  "generated_at": "2026-04-05T00:00:00Z",
+  "phase_completed": 5
+}

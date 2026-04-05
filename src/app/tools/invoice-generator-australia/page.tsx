@@ -1008,9 +1008,9 @@ export default function InvoiceGeneratorAustraliaPage() {
         </div>
       </article>
 
-      {/* ===== AFFILIATE BOX ===== */}
-      {/* Affiliate signup: https://www.xero.com/au/affiliate-program/ (hosted on PartnerStack) */}
-      {/* Commission: ~$200 per new paying subscriber, or ~10% recurring — confirm after approval */}
+      {/* ===== AFFILIATE BOX (HIDDEN — no affiliate agreement yet) =====
+      Affiliate signup: https://www.xero.com/au/affiliate-program/ (hosted on PartnerStack)
+      Commission: ~$200 per new paying subscriber, or ~10% recurring — confirm after approval
       <div
         style={{
           marginTop: 48,
@@ -1056,6 +1056,7 @@ export default function InvoiceGeneratorAustraliaPage() {
           </a>
         </div>
       </div>
+      ===== END HIDDEN AFFILIATE BOX ===== */}
 
       {/* ===== RELATED TOOLS ===== */}
       <RelatedTools currentSlug="invoice-generator-australia" category="finance" />

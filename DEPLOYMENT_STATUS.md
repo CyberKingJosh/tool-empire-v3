@@ -1,25 +1,15 @@
 DOMAIN_PURCHASED: YES
 DOMAIN_URL: toolsempire.online
-DOMAIN_CONNECTED_TO_VERCEL: NO
+DOMAIN_CONNECTED_TO_VERCEL: YES
+VERCEL_PROJECT: toolsempire
+GITHUB_REPO: CyberKingJosh/tool-empire-v3
 
-Until DOMAIN_CONNECTED_TO_VERCEL is YES, all agents:
-1. Run: npm run dev
-2. Preview at: http://localhost:3000/tools/[slug]
-3. Run the full SCREENSHOT WORKFLOW using localhost URL
-4. Mark STATUS.md as BUILT_LOCAL
+All agents deploy with: vercel --prod --archive=tgz
+All tools are live at: https://toolsempire.online/tools/[slug]
 
-When the domain is connected to Vercel, update DOMAIN_CONNECTED_TO_VERCEL to YES.
-Then agents will:
-1. Run: vercel --prod
-2. Screenshot the live URL at https://toolsempire.online/tools/[slug]
-3. Mark STATUS.md as DEPLOYED
-
-HOW TO CONNECT THE DOMAIN:
-1. Go to vercel.com → your project → Settings → Domains
-2. Add: toolsempire.online
-3. Vercel will give you DNS records (usually an A record or CNAME)
-4. Go to your domain registrar (wherever you bought toolsempire.online)
-5. Add the DNS records Vercel gave you
-6. Wait for DNS propagation (usually 5-30 minutes, can take up to 48 hours)
-7. Vercel will show a green checkmark when it's connected
-8. Come back here and update DOMAIN_CONNECTED_TO_VERCEL: YES
+Agents must:
+1. Build and test locally first (npm run build)
+2. Commit and push to GitHub (git push origin main)
+3. Run: vercel --prod --archive=tgz
+4. Run the full SCREENSHOT WORKFLOW from SCREENSHOT_REVIEW.md using the live URL
+5. Mark STATUS.md as DEPLOYED

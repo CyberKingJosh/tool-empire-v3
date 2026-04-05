@@ -64,7 +64,7 @@ cd /Users/blessingogugua/Desktop/everything/tool-empire-v3/tool-empire-v3
 npm run dev
 ```
 
-Then open: **http://localhost:3000/tools/singapore-to-jakarta-time-difference**
+Then open: **https://toolsempire.online/tools/singapore-to-jakarta-time-difference**
 
 Verify:
 1. Tool loads without errors
@@ -140,13 +140,32 @@ DEPLOYMENT STEP:
 Read /tool-empire-v3/DEPLOYMENT_STATUS.md first.
 If DOMAIN_PURCHASED is NO:
   Run: npm run dev
-  Open browser to: http://localhost:3000/tools/[slug]
+  Open browser to: https://toolsempire.online/tools/[slug]
   Run the full SCREENSHOT WORKFLOW from SCREENSHOT_REVIEW.md (Parts A, B, C) using Playwright MCP
   Log review in SCREENSHOT_REVIEW_LOG.md
-  Mark STATUS.md as BUILT_LOCAL
-  Tell the human: "Preview ready at http://localhost:3000/tools/[slug] — screenshots saved to /screenshots/[slug]/"
+  Mark STATUS.md as DEPLOYED
+  Tell the human: "Preview ready at https://toolsempire.online/tools/[slug] — screenshots saved to /screenshots/[slug]/"
 If DOMAIN_PURCHASED is YES:
   Run: vercel --prod
   Run the full SCREENSHOT WORKFLOW from SCREENSHOT_REVIEW.md (Parts A, B, C) using Playwright MCP on live URL
-  Mark STATUS.md as BUILT_LOCAL
+  Mark STATUS.md as DEPLOYED
 Do NOT run vercel --prod when DOMAIN_PURCHASED is NO. It will fail and waste tokens.
+
+---
+## AWDRA /web-build SKILL INTEGRATION
+
+If using the /web-build skill (AWDRA) to build this tool, use these pre-filled answers.
+Read /tool-empire-v3/AWDRA_ANSWERS.md for the full master template.
+
+Q1 (New or Reform?): REFORMING. Next.js 14.2.x, TypeScript, Tailwind CSS 3.4.x, App Router. Repo: /Users/blessingogugua/Desktop/everything/tool-empire-v3/tool-empire-v3
+Q2 (What it does): Tool Empire — 1,000+ free online tools on toolsempire.online. This specific tool page solves one problem instantly. Revenue: AdSense 40%, Pro subs 30%, affiliate 20%, $1 PDF exports 10%.
+Q3 (Target customer): See "Competitors and their weaknesses" and "Category" above — match target audience to the tool's niche.
+Q4 (Feeling): Map from the "Tone" in DESIGN BRIEF above.
+Q5 (Industry): Map from "Category" above.
+Q6 (Brand assets): Yes. DESIGN_SYSTEM.md has palettes. FRONTEND_RULES.md has fonts. Shared components in /shared/components/. Colours and fonts specified in DESIGN BRIEF above.
+Q7 (Competitors): Use the real competitors listed in "Competitors and their weaknesses" above. Also reference DESIGN_RESEARCH.md.
+Q8 (Pages needed): ONE page only — /tools/[slug]/page.tsx. Contains: tool interaction, result display, 300-500 word article, related tools grid, affiliate box, AdSense slots.
+Q9 (Primary CTA): Determined by "Monetisation: Type X" above. Type A = tool action button. Type B = "$1 AUD PDF download". Type C = "Upgrade to Pro". Type D = both B+C.
+Q10 (Constraints): Exact palette from DESIGN BRIEF. Approved font only. Above fold on 375px mobile. 48px input height. 16px min font. Use shared components. AUD currency. Follow SCREENSHOT_REVIEW.md.
+Q11 (Updates): Minimal. AU data hardcoded with date labels. No CMS.
+Q12 (Narrative): No. Utility tool — input in, result out. Speed is the feature. No scroll animation.

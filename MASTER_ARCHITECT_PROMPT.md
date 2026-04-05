@@ -63,6 +63,7 @@ Target: $100,000 AUD/month by Month 12. $1,000,000 AUD/month by Month 24.
 | TIME_TOOL_PATTERN.md | Correct React pattern for live clocks (hydration, tabular-nums) | Time tool agents |
 | SCREENSHOT_REVIEW.md | Playwright MCP screenshot workflow — competitor + our site + summary | Every agent, mandatory |
 | STRIPE_SETUP.md | One Stripe account setup for all 1,000 tools | Reference |
+| AWDRA_ANSWERS.md | Pre-filled answers for /web-build (AWDRA) skill integration | Every agent using /web-build |
 
 ---
 

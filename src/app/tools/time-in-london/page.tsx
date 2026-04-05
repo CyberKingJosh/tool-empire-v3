@@ -490,8 +490,8 @@ export default function TimeInLondonPage() {
         </div>
       </article>
 
-      {/* ===== AFFILIATE BOX — Calendly ===== */}
-      {/* Apply at calendly.com/lp/partners — backup: getclockwise.com partners */}
+      {/* ===== AFFILIATE BOX — Calendly (HIDDEN — no affiliate agreement yet) =====
+      Apply at calendly.com/lp/partners — backup: getclockwise.com partners
       <div style={{
         border: `1px solid ${P.border}`,
         borderRadius: 12,
@@ -505,7 +505,6 @@ export default function TimeInLondonPage() {
         flexWrap: 'wrap',
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14, flex: 1, minWidth: 200 }}>
-          {/* Clearbit logo */}
           <img
             src="https://logo.clearbit.com/calendly.com"
             alt="Calendly logo"
@@ -542,12 +541,13 @@ export default function TimeInLondonPage() {
           Try Free
         </a>
       </div>
-      {/* AFFILIATE: apply at calendly.com/lp/partners
+      AFFILIATE: apply at calendly.com/lp/partners
           When approved, replace href with your real tracking link.
-          Backup if rejected: getclockwise.com — Company → Partners */}
+          Backup if rejected: getclockwise.com — Company → Partners
+      ===== END HIDDEN AFFILIATE BOX ===== */}
 
       {/* ===== RELATED TOOLS ===== */}
-      <RelatedTools currentSlug="current-time-in-london" category="time" />
+      <RelatedTools currentSlug="time-in-london" category="time" />
     </ToolLayout>
   )
 }

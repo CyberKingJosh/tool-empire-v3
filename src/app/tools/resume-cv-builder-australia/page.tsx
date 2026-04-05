@@ -1148,10 +1148,10 @@ export default function ResumeCvBuilderAustraliaPage() {
         </div>
       </article>
 
-      {/* ===== AFFILIATE BOX =====
+      {/* ===== AFFILIATE BOX (HIDDEN — no affiliate agreement yet) =====
           Affiliate program: https://www.grammarly.com/affiliates (via Impact.com)
           Commission: 20% recurring on Premium subscriptions
-          When approved, replace href below with your Impact tracking link */}
+          When approved, replace href below with your Impact tracking link
       <div style={{ border: '1px solid rgba(139,47,201,0.2)', borderRadius: '12px', padding: '20px', marginTop: '32px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#FBF8FF', flexWrap: 'wrap', gap: '16px' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '14px', flex: 1, minWidth: 0 }}>
           <img
@@ -1177,6 +1177,7 @@ export default function ResumeCvBuilderAustraliaPage() {
           Try Free
         </a>
       </div>
+      ===== END HIDDEN AFFILIATE BOX ===== */}
 
       {/* ===== RELATED TOOLS ===== */}
       <RelatedTools currentSlug="resume-cv-builder-australia" category="writing" />
